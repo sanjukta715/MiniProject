@@ -1,0 +1,74 @@
+
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        background-color: #d2c2b3;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .resume {
+        background-color: #fff;
+        width: 800px;
+        display: flex;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .left {
+        background-color: #e9dfd6;
+        width: 35%;
+        padding: 20px;
+    }
+    .profile-pic {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .profile-pic img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid white;
+    }
+    .section-title {
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+    }
+    .contact-info p, .skills p, .interest p {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+    .stars {
+        color: #c19a6b;
+    }
+    .right {
+        width: 65%;
+        padding: 20px;
+    }
+    .name {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .title {
+        color: #555;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .about {
+        font-size: 14px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+    }
+    .edu, .exp {
+        margin-bottom: 20px;
+    }
+    .edu h4, .exp h4 {
+        margin: 5px 0;
+        font-weight: bold;
+    }
+    .edu span, .exp span {
+        font-size: 13px;
+        color: #777;
+    }
+
